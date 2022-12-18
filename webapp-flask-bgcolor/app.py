@@ -35,9 +35,9 @@ def main():
 if __name__ == "__main__":
     print("This is a simple flask webapp that displays a colored background and a greeting message. \n"
           "The color can be specified in two different ways: \n"
-          "    1. As a command line argument with --color as the argument. Accepts one of the following \n"
+          "    1. As a command line argument with --colorhexcode as the argument. Accepts one of the following \n"
           "       colors according the list below. \n"
-          "    2. As an Environment variable APP_COLOR. Accepts one of the following colors according \n"
+          "    2. As an Environment variable APP_COLORHEXCODE. Accepts one of the following colors according \n"
           "       the list below.\n"
           "In any other case, a random color is picked from the list below.\n"
           "\n"
